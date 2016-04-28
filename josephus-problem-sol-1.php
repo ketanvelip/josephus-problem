@@ -9,5 +9,4 @@ function josephus( $n, $k){
     return ((josephus($n-1,$k)+$k-1) % $n)+1;
   }
 }
-
 ?>
